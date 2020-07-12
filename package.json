@@ -1,0 +1,40 @@
+{
+    "name": "fitness-chat-server",
+    "version": "0.0.1",
+    "description": "Simple realtime chat server",
+    "repository": "",
+    "author": "hanayashiki <cwang592@usc.edu>",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "start": "tsc && yarn run dev",
+        "dev": "node --async-stack-traces dist-server/server.js",
+        "build-client": "tsc -p tsconfig-client.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.6",
+        "@types/redis": "^2.8.22",
+        "@types/uuid": "^8.0.0",
+        "@types/websocket": "^1.0.0",
+        "apn": "^2.2.0",
+        "chalk": "^4.1.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "redis": "^3.0.2",
+        "source-map-support": "^0.5.19",
+        "tslint": "^6.1.2",
+        "typescript": "^3.9.3",
+        "uuid": "^8.1.0",
+        "websocket": "^1.0.31",
+        "window-crypto": "^1.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.3",
+        "@babel/preset-env": "^7.10.3",
+        "@babel/preset-typescript": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-remove-console": "^6.9.4"
+    }
+}
