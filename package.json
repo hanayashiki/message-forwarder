@@ -1,5 +1,5 @@
 {
-    "name": "fitness-chat-server",
+    "name": "message-forwarder",
     "version": "0.0.1",
     "description": "Simple realtime chat server",
     "repository": "",
