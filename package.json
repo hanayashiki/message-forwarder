@@ -10,7 +10,7 @@
     "scripts": {
         "start": "tsc && yarn run dev",
         "dev": "node --async-stack-traces dist-server/server.js",
-        "build-client": "tsc -p tsconfig-client.json",
+        "build": "tsc -p tsconfig-client.json",
         "install": "tsc && yarn build-client",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
